@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Aplicacion"/>
+     <meta name="author" content="Luna Maite"/>
+     <link rel="stylesheet" href="app.css">
+     <title>aplicacion</title>
+    </head>
+    <body>
+        <h1>Aplicación</h1>
+
+    <div class="container">
+        <div class="carousel">
+            <button class="prev" onclick="changeImage(-1)">❮</button>
+            <button class="next" onclick="changeImage(1)">❯</button>
+            <img src="imagen1.png" class="active">
+            <img src="imagen2.png">
+            <img src="imagen3.png">
+            <img src="imagen4.png">
+            <img src="imagen5.png">
+            <img src="imagen6.png">
+            <img src="imagen7.png">
+        </div>
+
+        <div class="text-container">
+            <p>La aplicación oficial de CardioSugar, creada para administrar a los usuarios más pequeños, tener un 
+            registro más amplio sobre las actividades recientes, semanales o mensuales o configurar el reloj.</p>
+
+            <a href="https://neal.fun/">INSTALAR LA APLICACIÓN</a>
+        </div>
+
+    </div>
+
+        <script>
+            let currentImageIndex = 0;
+        
+            function changeImage(direction) {
+                const images = document.querySelectorAll('.carousel img');
+                images[currentImageIndex].classList.remove('active');
+        
+                currentImageIndex = (currentImageIndex + direction + images.length) % images.length;
+        
+                images[currentImageIndex].classList.add('active');
+            }
+        </script>
+    </body>
+
+    <footer>¡ATENCIÓN! El producto presentado no es real, se trata de un proyecto escolar. Página hecha por Luna Maite - 
+    Grupo 4</footer>
+    
+</html>

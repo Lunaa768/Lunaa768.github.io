@@ -1,0 +1,74 @@
+.grupito {
+    background: #888888;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.grupito li {
+    list-style: none;
+    display: inline-block;
+}
+
+.agrupar {
+    width: 450px;
+    background-color: rgb(194, 59, 59);
+    text-align: center;
+    margin-left: 80px;
+    padding: 5px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    border-radius:30px;
+}
+
+.grupito li button {
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-right: 45px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: color 0.3s;
+    position: relative;
+}
+
+.grupito li button::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #555555;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.grupito li button:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.grupito li button:hover {
+    color: #555555;
+}
+
+.agrupar h1 {
+    font-family: sans-serif;
+}
+
+.agrupar p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url(reloj.png);
+}
+
+footer {
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+}

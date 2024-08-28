@@ -1,0 +1,81 @@
+body {
+    background-image: url(p.jpg);
+}
+
+h1 {
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-decoration-color: rgb(40, 168, 211);
+}
+
+h2 {
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-decoration-color: rgb(97, 4, 4);
+}
+
+p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+footer {
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.titanio {
+    background-color: indianred;
+    border-radius:30px;
+    padding: 3px;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 80px;
+}
+
+.acero {
+    background-color: rgb(205, 92, 181);
+    border-radius:30px;
+    padding: 3px;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 80px;
+}
+
+.plastico {
+    background-color: rgb(205, 137, 92);
+    border-radius:30px;
+    padding: 3px;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 80px;
+}
+
+.ceramica {
+    background-color: rgb(207, 103, 255);
+    border-radius:30px;
+    padding: 3px;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 80px;
+}
+
+.cuero {
+    background-color: rgb(192, 107, 107);
+    border-radius:30px;
+    padding: 3px;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 80px;
+}

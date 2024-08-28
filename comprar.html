@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="¡Compra tu CardioSugar!"/>
+     <meta name="author" content="Luna Maite"/>
+     <link rel="stylesheet" href="comprarr.css">
+     <title>comprar</title>
+    </head>
+    <body>
+        <h1>Comprar</h1>
+        <h3>¡Compra ya tu CardioSugar!</h3>
+            <div class="container">
+                <h1>Datos para la compra</h1>
+                <form id="purchaseForm">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Teléfono:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Dirección:</label>
+                        <input type="text" id="address" name="address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="watch">Modelo de Reloj:</label>
+                        <input type="text" id="watch" name="watch" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" onclick="submitForm()">Enviar</button>
+                    </div>
+                </form>
+                <div id="summary" class="summary"></div>
+            </div>
+        
+    </body>
+
+    <footer>¡ATENCIÓN! El producto presentado no es real, se trata de un proyecto escolar. Página hecha por Luna Maite - 
+    Grupo 4</footer>
+
+</html>
